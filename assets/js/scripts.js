@@ -31,7 +31,7 @@ buttonClick.addEventListener('click',()=>{
     countUser.push(resultInput.innerHTML)
 
     if(countUser.length === 3){
-        teamReady.innerHTML = 'makan'
+        teamReady.innerHTML = 'Team is ready'
     }    
 })
 
