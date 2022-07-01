@@ -26,7 +26,7 @@ input.addEventListener('change',()=>{
 
 buttonClick.addEventListener('click',()=>{
     console.log(containerName);
-    resultInput.innerHTML += containerName
+    resultInput.innerHTML += containerName+' ,'
     containerName.splice(0, containerName.length)
     countUser.push(resultInput.innerHTML)
 
@@ -36,5 +36,6 @@ buttonClick.addEventListener('click',()=>{
 })
 
 //im having trouble to mapping the result using vanilla javascript
+
 
 
